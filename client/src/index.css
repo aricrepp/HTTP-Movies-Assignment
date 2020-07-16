@@ -55,14 +55,48 @@ body {
 }
 .save-button {
   position: absolute;
+  width: 40px;
   top: 25px;
   right: 25px;
   border: 1px solid grey;
   padding: 5px 10px;
-  background-color: lightseagreen;
+  background-color: lightgreen;
+  text-align: center;
 }
 .save-button:hover {
   background-color: green;
+  color: white;
+}
+
+.delete-button {
+  position: absolute;
+  width: 40px;
+  top: 65px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+.delete-button:hover {
+  background-color: darkred;
+  color: white;
+}
+
+.update-button {
+  position: absolute;
+  width: 50px;
+  top: 195px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightskyblue;
+  color: white;
+  text-align: center;
+}
+.update-button:hover {
+  background-color: blue;
   color: white;
 }
 
